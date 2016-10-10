@@ -1,0 +1,486 @@
+/***********css reset开始************/
+*{
+	margin:0;
+	padding: 0;
+}
+ol,ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+img{
+	border: 0;
+}
+/***********css reset结束************/
+/***********header开始************/
+.wrapper{
+	width:1100px;
+	margin: 0 auto;
+}
+#header .wrapper{
+	height:100px;
+}
+#header{
+	height:100px;
+}
+#picture{
+	margin-top: 15px;
+	width:265px;
+	float: left;
+}
+#search-btn{
+	background: #EA3939;
+	color: #fff;
+	width: 50px;
+	height: 30px;
+	border:0;
+
+}
+#search-title{
+	width:212px;
+	height:28px;
+	float:left;
+	border:1px solid rgb(234, 57, 57);
+	
+}
+#search{
+	float:right;
+	width:300px;
+	height:32px;
+	margin-top: 35px;
+}
+#icon{
+	width:250px;
+	height:40px;
+	float:right;
+	margin-top: 35px;
+	margin-left:70px;
+}
+#qq{
+	background: url(../img/home/top_qq.jpg) no-repeat center;
+	width:40px;
+	height: 35px;
+	float:left;
+	margin-right: 20px;
+}
+#weib{
+	background: url(../img/home/top_weib.jpg) no-repeat center;
+	width:40px;
+	height: 35px;
+	float:left;
+	margin-right: 20px;
+}
+#mail{
+	background: url(../img/home/top_you.jpg) no-repeat center;
+	width:40px;
+	height: 35px;
+	float:left;
+}
+#qq:hover{
+	background: url(../img/home/top_qq_h.png) no-repeat center;
+}
+
+#weib:hover{
+	background: url(../img/home/top_weib_h.png) no-repeat center;
+}
+#mail:hover{
+	background: url(../img/home/top_you_h.png) no-repeat center;
+}
+/***********header结束************/
+/***********nav开始************/
+#nav .wrapper{
+	height:50px;
+	}
+#nav{
+	height: 50px;
+	background: url(../img/home/top_lm_bg.jpg)  center;
+}
+#nav li{
+	width:135px;
+	height:50px;
+	background: #EA3939;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+	font-size: 10px;
+}
+#nav ul{display: block;
+	margin:0 auto;
+}
+#nav a{
+	width: 135px;
+	height: 50px;
+	display: block;
+	color: #fff;
+}
+#nav a:hover{
+	width:135px;
+	height: 50px;
+	background: #A61C00;
+}
+/***********nav结束************/
+/***********banner开始************/
+#banner{
+	height:390px;
+	background: url(../img/banner/01.jpg)  center center;
+	position: relative;
+}
+#banner img{
+	position: absolute;
+	top:50%;
+	margin-top: -44px;
+	left:50%;
+	margin-left: -222px;
+}
+#banner-top{
+	color:white;
+	font-size: 15px;
+	width:200px;
+	top:40%;
+	margin-top:-8px;
+	left:50%;
+	margin-left: -100px;
+	position: absolute;
+}
+#banner-sec1{
+	font-size: 30px;
+	color:#EA3939;
+	width:180px;
+	position: absolute;
+	top:50%;
+	margin-top: -17px;
+	left:43%;
+	margin-left: -90px;
+}
+#banner-sec2{
+	font-size: 30px;
+	color:#000;
+	width:180px;
+	position: absolute;
+	top:50%;
+	margin-top: -17px;
+	left:57%;
+	margin-left: -90px;
+}
+#banner-thr{
+	color:white;
+	font-size: 15px;
+	width:300px;
+	top:60%;
+	margin-top:-8px;
+	left:44%;
+	margin-left: -100px;
+	position: absolute;
+}
+#banner-fou{
+	width:240px;
+	height:32px;
+	background: url(../img/home/fg_dh.png) no-repeat center center;
+	color:#fff;
+	font-size: 15px;
+	line-height: 32px;
+	text-align: center;
+	top:72%;
+	margin-top: -16px;
+	left:50%;
+	margin-left: -120px;
+	position: absolute;
+}
+/***********banner结束************/
+/***********news开始************/
+#title-1{
+	background: url(../img/home/xw_1.png) no-repeat center left;
+	width: 334px;
+	height: 30px;
+	margin-top: 30px;
+	border-bottom: 2px  rgb(234, 57, 57) solid;
+}
+#company{
+	width:100px;
+	height:30px;
+	display: inline;
+	color: rgb(234, 57, 57);
+	margin-left: 20px;
+	line-height: 30px;
+}
+#news-1{
+	height:220px;
+	width:380px;
+	float: left;
+}
+#t-more{
+	float: right;
+	line-height: 30px;
+	height:30px;
+}
+#news li{
+	line-height: 30px;
+	width:334px;
+	font-size: 10px;
+	list-style: square;
+	border-bottom: 1px dashed;
+}
+.days{
+	float:right;
+}
+#news a:hover{
+	color: rgb(234, 57, 57);
+}
+#news ul{
+	display: block;
+	width:334px;
+	height: 200px;
+	float: left;
+}
+#title-2{
+	background: url(../img/home/xw_1.png) no-repeat center left;
+	width: 334px;
+	height: 30px;
+	margin-top: 30px;
+	border-bottom: 2px  rgb(234, 57, 57) solid;
+}
+#industry{
+	width:100px;
+	height:30px;
+	display: inline;
+	color: #000;
+	margin-left: 20px;
+	line-height: 30px;
+}
+#news-2{
+	height:174px;
+	float: left;
+}
+#t-more2{
+	float: right;
+	line-height: 30px;
+	height:30px;
+}
+#news-2{
+	height:220px;
+	width:720px;
+	float: left;
+}
+#box-one{
+	width:110px;
+	height: 200px;
+	float:left;
+	text-align: center;
+	background: url(../img/home/sy_tz_1.jpg) no-repeat center top;
+}
+#box-two{
+	width:110px;
+	height: 200px;
+	float:left;
+	text-align: center;
+	background: url(../img/home/sy_tz_2.jpg) no-repeat center top;
+}
+#box-three{
+	width:110px;
+	height: 200px;
+	float:left;
+	text-align: center;
+	background: url(../img/home/sy_tz_3.jpg) no-repeat center top;
+	
+}
+#box-one:hover{
+	background: url(../img/home/sy_tz_1_h.jpg)  no-repeat center top;
+}
+#box-two:hover{
+	background: url(../img/home/sy_tz_2_h.jpg)  no-repeat center top;
+}
+#box-three:hover{
+	background: url(../img/home/sy_tz_3_h.jpg)  no-repeat center top;
+}
+#box .font-down{
+	width:110px;
+	height:30px;
+	margin-top: 120px;
+	font-size: 13px;
+}
+#news-3{
+	height: 320px;
+	float: left;
+	margin-top: 10px;
+}
+#news{
+	height: 541px;
+}
+#news .wrapper{
+	height: 541px;
+}
+#con-1{
+	width: 298px;
+	height:320px;
+	background:  url(../img/home/ab_t.jpg)   no-repeat center top;
+} 
+#about-us-1{
+	font-size: 22px;
+	width:58px;
+	height: 75px;
+	line-height: 35px;
+	background: rgb(234, 57, 57);
+	text-align: center;
+	color: #fff;
+	margin-left: 25px;
+}
+#about-us-2{
+	width:58px;
+	height:35px;
+	line-height: 35px;
+	background: #000;
+	color: #fff;
+	margin-left: 25px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 13px;
+}
+#about-us-3{
+	font-size: 8px;
+	width: 276px;
+	height: 150px;
+	border:1px solid #CCCCCC;
+	text-align: center;
+	line-height: 20px;
+	color: #5A5A5A;
+	padding: 20px 10px 10px 10px;
+}
+#div2{
+	width: 276px;
+	height: 315px;
+	float: left;
+	background:  url(../img/home/yw_t.png) no-repeat 80px 160px #F1F1F1;
+	margin-left: 10px;
+}
+#div1{
+	float: left;
+}
+#div2-t{
+	text-align: left;
+	color: rgb(234, 57, 57);
+	width:236px;
+	height: 30px;
+	margin-top:20px;
+	margin-left: 18px;
+}
+#div2-c{
+	margin-left: 15px;
+	width: 236px;
+	height: 90px;
+	line-height: 35px;
+	font-size: 13px;
+	padding: 10px 10px 10px 5px;
+
+}
+#div2-l{
+	font-size: 13px;
+	color: rgb(234, 57, 57);
+	margin-left: 20px;
+}
+#div3{
+	background: url(../img/home/call_t.png) no-repeat  top left #F5F5F5;
+	width:505px;
+	height: 153px;
+	float: left;
+	margin-left: 10px;
+}
+#div3 li{
+	list-style: none;
+	border: none;
+	font-size: 15px;
+	
+}
+#div3 ul{
+	float: right;
+	display: block;
+	height: 153px;
+	width:250px;
+	margin-top: 15px;
+}
+#div4{
+	width: 505px;
+	height: 152px;
+	background:  url(../img/home/zp_t.png) no-repeat left #F5F5F5;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#div4-t{
+	width: 330px;
+	height: 25px;
+	color: #EA3939;
+	float: right;
+	margin-top: 20px;
+}
+#div4-con{
+	width:330px;
+	height:60px; 
+	font-size:12.5px;
+	float: right;
+	line-height: 30px;
+}
+#div4-l{
+	color: #EA3939;
+	float: right;
+	width: 330px;
+	height: 16px;
+}
+/***********news开始************/
+/***********footer开始************/
+#footer{
+	height: 180px;
+	background: #666666;
+    margin-top: 20px;
+    
+}
+#footer-t{
+    width: 40px;
+    height: 150px;
+    background: rgb(234, 57, 57);
+    color:#fff;
+    line-height: 25px;
+    text-align: center;
+    margin-top: -10px;
+    position: absolute; 
+}
+#footer-t-1{
+    width:20px;
+    height: 150px;
+    left: 50%;
+    margin-left: 10px;
+}
+#banquan{
+    width: 500px;
+    height: 75px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 70px;
+    color: #fff;
+}
+#footer .wrapper{
+    height: 180px;
+ }
+ #footer-con{
+    width: 360px;
+    height: 140px;
+    float: left;
+    background: url(../img/home/ewm.jpg) no-repeat  center left;
+    text-align: right;
+    line-height: 160px;
+    color: #fff;
+ }
+#footer-p{
+    display: block;
+    color: #fff;
+    height: 20px;
+    float: left;
+    text-align: center;
+    width:1100px;
+}
+
+
+
+
+/***********tooter结束************/
